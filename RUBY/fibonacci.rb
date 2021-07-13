@@ -13,6 +13,18 @@ def fibo(n)
     @cache[n] = fibo(n-1) + fibo(n-2)
 end
 
+def fibon(n)
+    if n == 0
+        0
+    elsif n == 1
+        1
+    else
+        fibon(n-1) + fib(n-2)
+    end
+end
+
+puts fibon(3)
+
 puts fib(6)
 
 puts fibo(3)

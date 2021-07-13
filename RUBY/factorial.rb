@@ -12,9 +12,18 @@ def testfact(n)
     n * testfact(n-1)
 end
 
+def fac(n)
+    if n == 0 
+        1
+    else
+        n * fac(n-1)
+    end
+end
 
 puts iterative_factorial(5)
 
 puts recursive_factorial(2)
 
 puts testfact(3)
+
+puts fac(3)

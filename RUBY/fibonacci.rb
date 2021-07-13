@@ -27,4 +27,4 @@ puts fibon(3)
 
 puts fib(6)
 
-puts fibo(3)
+puts fibo(2)
